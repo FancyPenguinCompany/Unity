@@ -16,6 +16,7 @@
         <file id="12" name="BonhommePiedG.png" width="128" height="128" pivot_x="0" pivot_y="1"/>
         <file id="13" name="BonhommeMainG.png" width="128" height="128" pivot_x="0" pivot_y="1"/>
         <file id="14" name="BonhommeMainD.png" width="128" height="128" pivot_x="0" pivot_y="1"/>
+        <file id="15" name="character_head2.png" width="32" height="32" pivot_x="0" pivot_y="1"/>
     </folder>
     <entity id="0" name="Player">
         <obj_info name="Main" type="bone" w="11.7088" h="10"/>
@@ -339,13 +340,13 @@
                 </key>
             </timeline>
             <timeline id="17" obj="2" name="Tete" object_type="bone">
-                <key id="0" spin="0">
-                    <bone x="21.763683" y="0.152364" angle="0.13406"/>
+                <key id="0" spin="-1">
+                    <bone x="21.763683" y="0.152364" angle="0.322831"/>
                 </key>
                 <key id="1" time="199" spin="0">
                     <bone x="21.763683" y="0.152364" angle="0.13406"/>
                 </key>
-                <key id="2" time="389" spin="0">
+                <key id="2" time="389">
                     <bone x="21.763683" y="0.152364" angle="0.13406"/>
                 </key>
             </timeline>
